@@ -1,0 +1,7 @@
+USE TestDB;
+GO
+
+CREATE DATABASE AUDIT SPECIFICATION VeriOkuDenetimi
+FOR SERVER AUDIT GirisDenetimi
+ADD (SELECT ON OBJECT::vgsales BY oyun_kullanicisi)
+WITH (STATE = ON);

@@ -1,0 +1,2 @@
+CREATE CERTIFICATE TdeCert
+WITH SUBJECT = 'TDE Sertifikasi';
